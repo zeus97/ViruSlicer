@@ -1,0 +1,100 @@
+.hero-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   .container{
+    
+       .hero-col-1{
+           padding: 20px;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: flex-start;
+    
+           .hero-icon{
+               font-size: 2.5rem;
+               padding: 10px;
+               color: #fff;
+               background-color: #ffffff36;
+               border-radius: 50%;
+               animation-delay: 0.5s;
+              
+           }
+    
+           h1{
+               color: var(--text-primary);
+               font-size: clamp(2.5rem,4vw,4rem);
+               animation-delay: 1s;
+       
+               span{
+                   color: var(--text-blue);
+               }
+           }
+           p{
+               color: var(--text-secondary);
+               animation-delay: 1.3s;
+           }
+           .hero-info{
+               display: flex;
+               animation-delay: 1.6s;
+       
+               span{
+                   margin-right: 8px;
+                   color: #20ffb5;
+               }
+           }
+           button{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               animation-delay: 2s;
+       
+               &:hover span{
+                   transform: translateX(8px);
+               }
+       
+               span{
+                   margin-left: 10px;
+                   transition: all 0.3s ease;
+               }
+           }
+           
+       }
+
+       img{
+        animation-delay: 0.5s;
+       }
+
+    @media screen and (max-width:992px){
+        margin-top: 70px;
+    }
+   }
+
+   
+
+
+    @media screen and (max-width:992){
+        .container{
+            margin-top: 70px;
+        }
+    }
+}
+
+.hidden{
+    opacity: 0;
+}
+
+@keyframes hero-animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

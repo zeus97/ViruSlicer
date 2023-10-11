@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --text-primary:#fcfcfc;
+  --text-secondary:#bdbdbd;
+  --text-tertiary:#111111;
+  --text-blue:#2d4cff;
+  --nav-gradient:linear-gradient(#233180,#5e2275);
+}

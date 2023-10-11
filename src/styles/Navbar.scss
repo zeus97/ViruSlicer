@@ -1,0 +1,79 @@
+.navbar{
+    position: fixed !important; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 1000;
+    
+
+    
+
+    .navbar-toggler{
+        background-color: #c987ff;
+        color: var(--text-primary);
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+        
+    }
+
+    .navbar-brand{
+        color:var(--text-primary);
+
+        &:hover{
+            color:var(--text-primary);  
+        }
+
+        // @media screen and (max-width:992px){
+        //     color:var(--text-tertiary);
+        //     &:hover{
+        //         color:var(--text-tertiary);  
+        //     }
+        // }
+    }
+    
+    .nav-link{
+        color:var(--text-secondary);
+        margin-right: 15px;
+
+        &:hover{
+            color: var(--text-primary);
+        }
+        // @media screen and (max-width:992px){
+        //     color:var(--text-tertiary);
+        //     &:hover{
+        //         color: var(--text-blue);
+        //     }
+        // }
+    }
+
+    .nav-btn{
+        color: var(--text-primary);
+        background-color: #8a22df86;
+        border: 1px solid #c987ff;
+
+        &:hover{
+            color:var(--text-blue);
+            background-color: var(--text-primary);
+            border-color: var(--text-primary);
+        }
+    }
+
+    @media screen and (max-width:992px){
+        background: var(--nav-gradient);
+    }
+}
+.navbar-custom{
+    background: var(--nav-gradient);
+    animation: navbar-animation 0.3s linear;
+}
+
+@keyframes navbar-animation{
+    from{
+        height: 0;
+    }
+    to{
+        height: 60px;
+    }
+}
