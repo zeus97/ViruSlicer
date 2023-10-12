@@ -11,7 +11,7 @@
 
     .navbar-toggler{
         background-color: #c987ff;
-        color: var(--text-primary);
+        color: var(--text-white);
     }
     .navbar-toggler-icon{
         color: #fff;
@@ -19,44 +19,33 @@
     }
 
     .navbar-brand{
-        color:var(--text-primary);
+        color:var(--text-white);
 
         &:hover{
-            color:var(--text-primary);  
+            color:var(--text-white);  
         }
 
-        // @media screen and (max-width:992px){
-        //     color:var(--text-tertiary);
-        //     &:hover{
-        //         color:var(--text-tertiary);  
-        //     }
-        // }
     }
     
     .nav-link{
-        color:var(--text-secondary);
+        color:var(--text-gray);
         margin-right: 15px;
 
         &:hover{
-            color: var(--text-primary);
+            color: var(--text-white);
         }
-        // @media screen and (max-width:992px){
-        //     color:var(--text-tertiary);
-        //     &:hover{
-        //         color: var(--text-blue);
-        //     }
-        // }
+        
     }
 
     .nav-btn{
-        color: var(--text-primary);
+        color: var(--text-white);
         background-color: #8a22df86;
         border: 1px solid #c987ff;
 
         &:hover{
             color:var(--text-blue);
-            background-color: var(--text-primary);
-            border-color: var(--text-primary);
+            background-color: var(--text-white);
+            border-color: var(--text-white);
         }
     }
 

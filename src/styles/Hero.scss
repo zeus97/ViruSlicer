@@ -28,7 +28,7 @@
            }
     
            h1{
-               color: var(--text-primary);
+               color: var(--text-white);
                font-size: clamp(2.5rem,4vw,4rem);
                animation-delay: 1s;
        
@@ -37,7 +37,7 @@
                }
            }
            p{
-               color: var(--text-secondary);
+               color: var(--text-gray);
                animation-delay: 1.3s;
            }
            .hero-info{

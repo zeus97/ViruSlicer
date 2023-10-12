@@ -5,9 +5,12 @@
 }
 
 :root{
-  --text-primary:#fcfcfc;
-  --text-secondary:#bdbdbd;
-  --text-tertiary:#111111;
+  --text-primary:#111111;
+  --text-secondary:#414141;
+  --text-white:#fcfcfc;
+  --text-gray:#c0c0c0;
   --text-blue:#2d4cff;
   --nav-gradient:linear-gradient(#233180,#5e2275);
+  --bg-primary:#ffffff;
+  --bg-secondary:#e0e0e0;
 }

@@ -1,0 +1,26 @@
+.features-section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-secondary);
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .features-info-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .features-subtitle,p{
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        .features-title{
+            color: var(--text-tertiary);
+            text-align: center;
+        }
+        p{
+            width: 50%;
+        }
+    }
+}

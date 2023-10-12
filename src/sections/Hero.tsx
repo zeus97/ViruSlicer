@@ -1,14 +1,11 @@
-import React from 'react'
-import { useInView } from 'react-intersection-observer'
 import '../styles/Hero.scss'
 import heroImage from '../assets/hero-img.png'
 
 function Hero() {
-    const [heroRef,heroObserver] = useInView();
 
   return (
     <section className='hero-section'>
-        <div ref={heroRef} className='container'>
+        <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 col-sm-12 hero-col-1'>
                     <span className="material-symbols-outlined hero-icon animate__animated animate__fadeInUp ">
