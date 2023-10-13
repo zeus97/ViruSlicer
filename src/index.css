@@ -12,5 +12,9 @@
   --text-blue:#2d4cff;
   --nav-gradient:linear-gradient(#233180,#5e2275);
   --bg-primary:#ffffff;
-  --bg-secondary:#e0e0e0;
+  --bg-secondary:#f0f0f0;
+}
+
+html{
+  scroll-behavior: smooth;
 }

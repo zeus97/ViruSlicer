@@ -12,7 +12,7 @@ function Work() {
             <div className='work-info-box'>
                 <h6 className='work-subtitle'>HOW IT WORK</h6>
                 <h2 className='work-title'>How does it work?</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repudiandae exercitationem, architecto explicabo, perferendis quis dolores nostrum quaerat eos esse corporis. Similique corporis reiciendis quis dignissimos sed aut sint ducimus.</p>
+                <p>Ddownload and install the app to your device, effortlessly setting up a robust digital defense. Execute a lightning-fast scan that swiftly inspects your device for any potential threats, providing you with real-time updates on any security issues.</p>
             </div>
             <div className='row mt-5' ref={workRef}>
                 <div className='col-lg-4 col-sm-12 work-col'>

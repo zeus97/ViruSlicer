@@ -1,16 +1,17 @@
 .features-section{
     width: 100%;
-    min-height: 100vh;
     background-color: var(--bg-secondary);
     padding-top: 90px;
     padding-bottom: 90px;
 
+    .features-section-1{margin-bottom: 200px;}
+    
     .features-info-box{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        
         .features-subtitle,p{
             color: var(--text-secondary);
             text-align: center;
@@ -21,6 +22,31 @@
         }
         p{
             width: 50%;
+        }
+    }
+
+    .features-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .features-points{
+            display: flex;
+            
+            align-items: flex-start;
+            margin-bottom: 20px;
+            
+            .features-icon{
+                font-size: 25px;
+                padding: 8px;
+                color: var(--text-blue);
+                background-color: #ffff;
+                box-shadow: 0 5px 10px 2px #2d4cff36;
+                margin-right: 10px;
+                border-radius: 50%;
+                
+            }
+           
         }
     }
 }

@@ -4,7 +4,7 @@ import heroImage from '../assets/hero-img.png'
 function Hero() {
 
   return (
-    <section className='hero-section'>
+    <section className='hero-section' id='home'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 col-sm-12 hero-col-1'>
