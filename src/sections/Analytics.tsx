@@ -1,9 +1,27 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
 import '../styles/Analytics.scss'
+import useCounter from '../hooks/useCounter'
 
 function Analytics() {
+
+    const [analyticRef,analyticObserver] = useInView({
+        triggerOnce:true,
+    });
+
+    const [downloadCount, startDownloadCount] = useCounter(120000, 15, 200);
+    const [usersCount, startUsersCount] = useCounter(25000, 10, 200);
+    const [yearsCount, startYearsCount] = useCounter(15, 1, 500);
+    
+    if(analyticObserver){
+        startDownloadCount();
+        startUsersCount();
+        startYearsCount();
+    }
+
+
   return (
-    <section className='analytics-section'>
+    <section ref={analyticRef} className='analytics-section'>
         <div className="container">
             <div className='row analytics-item'>
                 <div className="col-4 analytics-item-col">
@@ -12,7 +30,7 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>125000+</h3>
+                    <h3>{downloadCount}+</h3>
                     <p>DOWNLOADS</p>
                 </div>
 
@@ -24,7 +42,7 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>20000+</h3>
+                    <h3>{usersCount}+</h3>
                     <p>USER CLIENTS</p>
                 </div>
 
@@ -36,7 +54,7 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>12+</h3>
+                    <h3>{yearsCount}+</h3>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
 

@@ -1,0 +1,16 @@
+.section-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section-subtitle, .section-text{
+        color: var(--text-secondary);
+        text-align: center;
+    }
+    .section-title{
+        color: var(--text-tertiary);
+        text-align: center;
+    }
+    .section-text{width: 50%;}
+}

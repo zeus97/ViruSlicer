@@ -4,27 +4,6 @@
     padding-top: 90px;
     padding-bottom: 90px;
 
-
-
-    .work-info-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-
-        .work-subtitle, p{
-            color: var(--text-secondary);
-            text-align: center;
-        }
-        .work-title{
-            color: var(--text-tertiary);
-            text-align: center;
-        }
-        p{
-            width: 50%;
-        }
-    }
     .work-steps{
         display: flex;
         flex-direction: column;

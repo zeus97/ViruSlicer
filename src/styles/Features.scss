@@ -6,24 +6,6 @@
 
     .features-section-1{margin-bottom: 200px;}
     
-    .features-info-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        .features-subtitle,p{
-            color: var(--text-secondary);
-            text-align: center;
-        }
-        .features-title{
-            color: var(--text-tertiary);
-            text-align: center;
-        }
-        p{
-            width: 50%;
-        }
-    }
 
     .features-col{
         display: flex;

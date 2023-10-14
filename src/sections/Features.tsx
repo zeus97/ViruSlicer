@@ -2,17 +2,18 @@ import React from 'react'
 import '../styles/Features.scss'
 import firstImage from '../assets/features-img-1.svg'
 import secondImage from '../assets/features-image-2.png'
+import SectionHeader from '../components/SectionHeader'
 
 function Features() {
   return (
     <section className='features-section' id='features'>
         <div className='container'>
             <div className='row features-section-1'>
-                <div className='features-info-box'>
-                    <h6 className='features-subtitle'>OUR FEATURES</h6>
-                    <h2 className='features-title'>Real-Time Protection</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repudiandae exercitationem, architecto explicabo, perferendis quis dolores nostrum quaerat eos esse corporis. Similique corporis reiciendis quis dignissimos sed aut sint ducimus.</p>
-                </div>
+                <SectionHeader
+                title='Real-Time Protection'
+                subtitle='OUR FEATURES'
+                text='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repudiandae exercitationem, architecto explicabo, perferendis quis dolores nostrum quaerat eos esse corporis. Similique corporis reiciendis quis dignissimos sed aut sint ducimus.' />
+
                 <div className='row mt-5'>
                     <div className='col-lg-6 col-sm-12 features-col'>
                         <img

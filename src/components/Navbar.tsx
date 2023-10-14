@@ -34,9 +34,6 @@ function Navbar() {
                     </li>
                     
                     <li className="nav-item">
-                        <a className="nav-link" href='#screenshot'>Screenshot</a>
-                    </li>
-                    <li className="nav-item">
                         <a className="nav-link"  href="#testimonial">Testimonial</a>
                     </li>
                     <li className="nav-item">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer'
 import '../styles/Work.scss'
+import SectionHeader from '../components/SectionHeader';
 
 function Work() {
 
@@ -9,11 +10,10 @@ function Work() {
   return (
     <section className='work-section'>
         <div className='container'>
-            <div className='work-info-box'>
-                <h6 className='work-subtitle'>HOW IT WORK</h6>
-                <h2 className='work-title'>How does it work?</h2>
-                <p>Ddownload and install the app to your device, effortlessly setting up a robust digital defense. Execute a lightning-fast scan that swiftly inspects your device for any potential threats, providing you with real-time updates on any security issues.</p>
-            </div>
+            <SectionHeader
+            title='How does it work?'
+            subtitle='HOW IT WORK'
+            text='Ddownload and install the app to your device, effortlessly setting up a robust digital defense. Execute a lightning-fast scan that swiftly inspects your device for any potential threats, providing you with real-time updates on any security issues.' />
             <div className='row mt-5' ref={workRef}>
                 <div className='col-lg-4 col-sm-12 work-col'>
                     <div className={WorkObserver ? "work-steps animate__animated animate__zoomIn" : "work-steps"}>
