@@ -12,7 +12,7 @@ function Features() {
                 <SectionHeader
                 title='Real-Time Protection'
                 subtitle='OUR FEATURES'
-                text='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum repudiandae exercitationem, architecto explicabo, perferendis quis dolores nostrum quaerat eos esse corporis. Similique corporis reiciendis quis dignissimos sed aut sint ducimus.' />
+                text='This proactive approach helps ensure that your device is protected from threats the moment they are encountered, enhancing your overall security.' />
 
                 <div className='row mt-5'>
                     <div className='col-lg-6 col-sm-12 features-col'>

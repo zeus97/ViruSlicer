@@ -1,0 +1,24 @@
+.brands-bar-c{
+    background-color: var(--bg-secondary);
+    margin-top: 100px;
+   overflow: hidden;
+   
+   .brands-bar{
+      animation: infinite-loop 8s linear infinite;
+   
+       img{
+           width: 100px;
+           height: 100px;
+           margin-right: 100px;     
+       }
+   }
+}
+
+@keyframes infinite-loop{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1600px);
+    }
+}

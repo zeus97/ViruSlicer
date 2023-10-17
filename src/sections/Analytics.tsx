@@ -1,27 +1,11 @@
-import React from 'react'
-import { useInView } from 'react-intersection-observer'
+
 import '../styles/Analytics.scss'
-import useCounter from '../hooks/useCounter'
+import CountUp from  'react-countup'
 
 function Analytics() {
 
-    const [analyticRef,analyticObserver] = useInView({
-        triggerOnce:true,
-    });
-
-    const [downloadCount, startDownloadCount] = useCounter(120000, 15, 200);
-    const [usersCount, startUsersCount] = useCounter(25000, 10, 200);
-    const [yearsCount, startYearsCount] = useCounter(15, 1, 500);
-    
-    if(analyticObserver){
-        startDownloadCount();
-        startUsersCount();
-        startYearsCount();
-    }
-
-
   return (
-    <section ref={analyticRef} className='analytics-section'>
+    <section className='analytics-section'>
         <div className="container">
             <div className='row analytics-item'>
                 <div className="col-4 analytics-item-col">
@@ -30,8 +14,18 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>{downloadCount}+</h3>
-                    <p>DOWNLOADS</p>
+                    <h3>
+                        <CountUp
+                        start={0}
+                        end={120000} 
+                        delay={0} 
+                        duration={2} 
+                        enableScrollSpy={true} 
+                        scrollSpyOnce={true} />
+                        +
+                    </h3>
+
+                    <p className='text-center'>DOWNLOADS</p>
                 </div>
 
             </div>
@@ -42,8 +36,17 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>{usersCount}+</h3>
-                    <p>USER CLIENTS</p>
+                    <h3>
+                        <CountUp
+                        start={0}
+                        end={25000} 
+                        delay={0} 
+                        duration={2} 
+                        enableScrollSpy={true} 
+                        scrollSpyOnce={true} />
+                        +
+                    </h3>
+                    <p className='text-center'>USER CLIENTS</p>
                 </div>
 
             </div>
@@ -54,8 +57,17 @@ function Analytics() {
                     </span>
                 </div>
                 <div className="col-8 analytics-item-col">
-                    <h3>{yearsCount}+</h3>
-                    <p>YEARS OF EXPERIENCE</p>
+                    <h3>
+                        <CountUp
+                        start={0}
+                        end={15} 
+                        delay={0} 
+                        duration={2} 
+                        enableScrollSpy={true} 
+                        scrollSpyOnce={true} />
+                        +
+                    </h3>
+                    <p className='text-center'>YEARS OF EXPERIENCE</p>
                 </div>
 
             </div>
