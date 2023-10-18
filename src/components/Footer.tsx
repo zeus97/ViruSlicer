@@ -2,13 +2,17 @@ import React from 'react'
 import '../styles/Footer.scss'
 
 function Footer() {
+
+    const date = new Date;
+    const year = date.getFullYear();
+
   return (
     <footer className='bg-dark footer-section'>
         <div className="container">
             <div className="row">
                 <div className="col-lg-4 col-sm-12 d-flex flex-column align-items-center mb-3">
-                    <h4>ViruSlice</h4>
-                    <p>viruslice-contact@gmail.com</p>
+                    <h4>ViruSlicer</h4>
+                    <p>viruslicer-contact@gmail.com</p>
                     <h6>Follow Us</h6>
                     <div className='d-flex alig-items-center mt-3'>
                         <i className="bi bi-facebook"></i>
@@ -107,7 +111,7 @@ function Footer() {
                 </div>
             </div>
             <div className="row">
-                <p className='text-center mt-3'>2023 © ViruSlice</p>
+                <p className='text-center mt-3'>{year} © ViruSlicer</p>
             </div>
         </div>
     </footer>

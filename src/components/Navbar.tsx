@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import '../styles/Navbar.scss'
+import logo from '/favicon.png'
 
 function Navbar() {
 
@@ -19,6 +20,10 @@ function Navbar() {
     <nav className={navScroll ? "navbar navbar-expand-lg navbar-custom" : "navbar navbar-expand-lg"} id='navBar'>
         <div className="container">
             <a className="navbar-brand" href="#home">
+                <img
+                src={logo}
+                alt='ViruSlicer'
+                width={80} />
                 ViruSlicer
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

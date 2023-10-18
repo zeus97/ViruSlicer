@@ -27,7 +27,7 @@ function Contact() {
                                     <span className="material-symbols-outlined me-2">
                                         trending_flat
                                     </span>
-                                    viruslice-contact@gmail.com
+                                    viruslicer-contact@gmail.com
                                 </p>
                             </div>
                         </div>
