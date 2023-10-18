@@ -11,7 +11,9 @@ function Hero() {
                     <span className="material-symbols-outlined hero-icon animate__animated animate__fadeInUp ">
                         verified_user
                     </span>
-                    <h1 className='animate__animated animate__fadeInUp'>Welcome to <span>ViruSlicer</span></h1>
+                    <h1 className='animate__animated animate__fadeInUp'>
+                        Welcome to <span className='text-primary'>ViruSlicer</span>
+                    </h1>
                     <p className='animate__animated animate__fadeInUp'>Protect your digital life with our powerful antivirus solution.</p>
                     <div className='hero-info animate__animated animate__fadeInUp'>
                         <span className="material-symbols-outlined">

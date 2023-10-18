@@ -56,7 +56,7 @@ function Price({name,price,devices,featureOne,featureTwo,featureThree,featureFou
                 {featureFour}
             </li>
         </ul>
-        <a href='#' className='btn btn-primary w-100'>Choose Plan</a>
+        <a href='#pricing' className='btn btn-primary w-100'>Choose Plan</a>
     </div>
   )
 }

@@ -7,8 +7,6 @@
     z-index: 1000;
     
 
-    
-
     .navbar-toggler{
         background-color: #c987ff;
         color: var(--text-white);
@@ -34,7 +32,7 @@
         &:hover{
             color: var(--text-white);
         }
-        
+          
     }
 
     .nav-btn{
@@ -48,6 +46,17 @@
             border-color: var(--text-white);
         }
     }
+    .login-link{
+        &:visited{
+            color: var(--text-white) ;
+        }
+    }
+
+    .active{
+        color: var(--text-white) !important;
+        text-decoration: underline;
+    }
+
 
     @media screen and (max-width:992px){
         background: var(--nav-gradient);
@@ -66,3 +75,4 @@
         height: 60px;
     }
 }
+

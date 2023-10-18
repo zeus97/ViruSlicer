@@ -1,18 +1,39 @@
-.brands-bar-c{
+.brands-section{
+    width: 100%;
     background-color: var(--bg-secondary);
-    margin-top: 100px;
-   overflow: hidden;
-   
-   .brands-bar{
-      animation: infinite-loop 8s linear infinite;
-   
-       img{
-           width: 100px;
-           height: 100px;
-           margin-right: 100px;     
+
+    .brands-bar-c{
+       overflow: hidden;
+       position: relative;
+       
+       .brands-bar{
+          animation: infinite-loop 8s linear infinite;
+       
+           img{
+               width: 100px;
+               height: 100px;
+               margin-right: 100px;     
+           }
        }
-   }
+    
+       .brands-box{
+        position: absolute;
+        z-index: 10;
+        height: 100%;
+        width: 70px;
+       }
+       .brands-box-one{
+        left: 0;
+        background:linear-gradient(to right,var(--bg-secondary),transparent);
+    }
+       .brands-box-two{
+        right: 0;
+        background:linear-gradient(to left,var(--bg-secondary),transparent);
+    }
+    }
 }
+
+
 
 @keyframes infinite-loop{
     from{

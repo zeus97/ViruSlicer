@@ -15,7 +15,7 @@ function TestimonialCarousel() {
                         and I couldn't be happier with the level of protection it provides. This app has been effective in keeping my devices safe from malware and viruses.
                     </q>
                     <img src={personaOne} alt="..." className='mb-3' width={150} height={150} style={{borderRadius:"50%"}} />
-                    <h2 className='text-center'>-Emma Williams</h2>
+                    <h4 className='text-center'>-Emma Williams</h4>
                 </div>
             </div>
             <div className="carousel-item">
@@ -25,7 +25,7 @@ function TestimonialCarousel() {
                         from malicious software and viruses. I have been using this antivirus app for a while now, and I am extremely impressed with its powerful features.
                     </q>
                     <img src={personaTwo} alt="..." className='mb-3' width={150} height={150} style={{borderRadius:"50%"}} />
-                    <h2 className='text-center'>-Alexander Johnson</h2>
+                    <h4 className='text-center'>-Alexander Johnson</h4>
                 </div>
             </div>
             <div className="carousel-item">
@@ -35,7 +35,7 @@ function TestimonialCarousel() {
                         I am impressed. With the increasing threat of malware and viruses, it's crucial to have a reliable antivirus software that can protect our devices. ViruSlicer does exactly that. 
                     </q>
                     <img src={personaThree} alt="..." className='mb-3' width={150} height={150} style={{borderRadius:"50%"}} />
-                    <h2 className='text-center'>-Benjamin Smith</h2>
+                    <h4 className='text-center'>-Benjamin Smith</h4>
                 </div>
             </div>
         </div>

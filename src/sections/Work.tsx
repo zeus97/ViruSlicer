@@ -5,7 +5,9 @@ import SectionHeader from '../components/SectionHeader';
 
 function Work() {
 
-    const [workRef,WorkObserver] = useInView();
+    const [workRef,WorkObserver] = useInView({
+        triggerOnce:true,
+    });
 
   return (
     <section className='work-section'>

@@ -16,7 +16,7 @@ function Navbar() {
     },[])
 
   return (
-    <nav className={navScroll ? "navbar navbar-expand-lg navbar-custom" : "navbar navbar-expand-lg"}>
+    <nav className={navScroll ? "navbar navbar-expand-lg navbar-custom" : "navbar navbar-expand-lg"} id='navBar'>
         <div className="container">
             <a className="navbar-brand" href="#home">
                 ViruSlicer
@@ -46,12 +46,12 @@ function Navbar() {
 
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a className="nav-link"  href="#">
+                        <a className="nav-link login-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
                             Login
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="btn nav-btn" href="#">
+                        <a className="btn nav-btn" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">
                             Sign Up
                         </a>
                     </li>

@@ -15,7 +15,7 @@ function Features() {
                 text='This proactive approach helps ensure that your device is protected from threats the moment they are encountered, enhancing your overall security.' />
 
                 <div className='row mt-5'>
-                    <div className='col-lg-6 col-sm-12 features-col'>
+                    <div className='col-lg-6 col-sm-12 mb-3 features-col'>
                         <img
                         src={firstImage}
                         alt='feature img'
@@ -26,19 +26,19 @@ function Features() {
                         <h3>Continuous Protection</h3>
                         <p>Our antivirus app offers real-time protection to keep your device safe at all times. With this feature, you can enjoy secure and worry-free browsing.</p>
                         <div className='features-points'>
-                            <span className="material-symbols-outlined features-icon">
+                            <span className="material-symbols-outlined text-primary features-icon">
                                 monitoring
                             </span>
                             <p>Constant Monitoring: We detect and eliminate threats in real-time, keeping your device secure at all times.</p>
                         </div>
                         <div className='features-points'>
-                            <span className="material-symbols-outlined features-icon">
+                            <span className="material-symbols-outlined text-primary features-icon">
                                 security_update_good
                             </span>
                             <p>Automatic Updates: Our database is constantly updated to defend against the latest threats.</p>
                         </div>
                         <div className='features-points'>
-                            <span className="material-symbols-outlined features-icon">
+                            <span className="material-symbols-outlined text-primary features-icon">
                                 security
                             </span>
                             <p>Secure Browsing: Surf the web and download files with confidence, knowing that we are protecting your device at all times.</p>
@@ -53,19 +53,19 @@ function Features() {
                     <h3>Quick and Effective Scanning</h3>
                     <p>Our quick and effective scanning is perfect for keeping your device free from malware. Scan your device in seconds and get accurate results.</p>
                     <div className='features-points'>
-                        <span className="material-symbols-outlined features-icon">
+                        <span className="material-symbols-outlined text-primary features-icon">
                             scan
                         </span>
                         <p>Ultra-Fast Scanning: Our scanning engine performs a comprehensive check in a matter of seconds, saving you valuable time.</p>
                     </div>
                     <div className='features-points'>
-                        <span className="material-symbols-outlined features-icon">
+                        <span className="material-symbols-outlined text-primary features-icon">
                                 radar
                         </span>
                         <p>Precise Detection: We identify threats with precision, removing any malware or viruses from your device.</p>
                     </div>
                     <div className='features-points'>
-                        <span className="material-symbols-outlined features-icon">
+                        <span className="material-symbols-outlined text-primary features-icon">
                             calendar_month
                         </span>
                         <p>Scan Scheduling: Set up automatic scans to keep your device safe effortlessly.</p>
