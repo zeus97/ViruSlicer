@@ -3,9 +3,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: transparent;
     z-index: 1000;
-    
+
 
     .navbar-toggler{
         background-color: #c987ff;
@@ -59,12 +58,13 @@
 
 
     @media screen and (max-width:992px){
-        background: var(--nav-gradient);
+        background: var(--color-gradient);
     }
 }
 .navbar-custom{
     background: var(--color-gradient);
     animation: navbar-animation 0.3s linear;
+
 }
 
 @keyframes navbar-animation{

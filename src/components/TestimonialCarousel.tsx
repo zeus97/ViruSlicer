@@ -10,7 +10,7 @@ function TestimonialCarousel() {
         <div className="carousel-inner" >
             <div className="carousel-item active" >
                 <div className='d-flex flex-column justify-content-center align-items-center' >
-                    <q className='text-center w-50 mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
+                    <q className='text-center mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
                         I recently started using ViruSlicer as my antivirus app,
                         and I couldn't be happier with the level of protection it provides. This app has been effective in keeping my devices safe from malware and viruses.
                     </q>
@@ -20,7 +20,7 @@ function TestimonialCarousel() {
             </div>
             <div className="carousel-item">
                 <div className='d-flex flex-column justify-content-center align-items-center'>
-                    <q className='text-center w-50 mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
+                    <q className='text-center mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
                         ViruSlicer is a game-changer when it comes to protecting your devices
                         from malicious software and viruses. I have been using this antivirus app for a while now, and I am extremely impressed with its powerful features.
                     </q>
@@ -30,7 +30,7 @@ function TestimonialCarousel() {
             </div>
             <div className="carousel-item">
                 <div className='d-flex flex-column justify-content-center align-items-center'>
-                    <q className='text-center w-50 mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
+                    <q className='text-center mb-3' style={{fontWeight:"bold",fontStyle:"italic"}}>
                         I recently started using ViruSlicer as my go-to antivirus app, and I must say,
                         I am impressed. With the increasing threat of malware and viruses, it's crucial to have a reliable antivirus software that can protect our devices. ViruSlicer does exactly that. 
                     </q>
