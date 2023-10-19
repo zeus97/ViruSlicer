@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/BrandsBar.scss'
 //Images
 import IBMLogo from '../assets/ibm.svg'

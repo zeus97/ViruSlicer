@@ -1,5 +1,3 @@
-import React from 'react'
-
 import personaOne from '../assets/persona-1.jpg'
 import personaTwo from '../assets/persona-2.jpg'
 import personaThree from '../assets/persona-3.jpg'

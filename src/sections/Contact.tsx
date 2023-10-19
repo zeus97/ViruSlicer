@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/Contact.scss'
 import SectionHeader from '../components/SectionHeader'
 import ContactForm from '../components/ContactForm'

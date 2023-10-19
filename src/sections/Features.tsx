@@ -1,4 +1,3 @@
-import React from 'react'
 import { useInView } from 'react-intersection-observer'
 import '../styles/Features.scss'
 import firstImage from '../assets/features-img-1.svg'
