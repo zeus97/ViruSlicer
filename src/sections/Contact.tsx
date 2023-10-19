@@ -17,53 +17,43 @@ function Contact() {
                         <h2 className='mb-5'>👋 Say Hello!</h2>
                         <div className='mb-3'>
                             <div className='d-flex align-items-center'>
-                                <span className="material-symbols-outlined text-primary contact-icon">
-                                    mail
-                                </span>
+                                <i className="bi bi-envelope-at text-primary contact-icon"></i>
                                 <h4>Email</h4>
                             </div>
                             <div className='d-flex align-items-center'>
                                 <p className='d-flex align-items-center'>
-                                    <span className="material-symbols-outlined me-2">
-                                        trending_flat
-                                    </span>
+                                    <i className="bi bi-arrow-right me-2"></i>
                                     viruslicer-contact@gmail.com
                                 </p>
                             </div>
                         </div>
                         <div className='mb-3'>
                             <div className='d-flex align-items-center'>
-                                <span className="material-symbols-outlined text-primary contact-icon">
-                                    call
-                                </span>
+                                <i className="bi bi-telephone text-primary contact-icon"></i>
                                 <h4>Phone</h4>
                             </div>
                             <div className='d-flex align-items-center'>
                                 
                                 <p className='d-flex align-items-center'>
-                                    <span className="material-symbols-outlined me-2">
-                                        trending_flat
-                                    </span>
+                                    <i className="bi bi-arrow-right me-2"></i>
                                     (+01) 1234 5678 44
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div className='d-flex align-items-center'>
-                                <span className="material-symbols-outlined text-primary contact-icon">
-                                    location_on
-                                </span>
+                                <i className="bi bi-geo-alt text-primary contact-icon"></i>
                                 <h4>Address</h4>
                             </div>
                             <div className='d-flex align-items-center'>
                                 <h5 className='d-flex align-items-center'>
-                                    <span className="material-symbols-outlined me-2">
-                                        trending_flat
-                                    </span>
                                     New York Office
                                 </h5>
                             </div>
-                            <p>3345 Maple Street, Eros Avenue, CA 44017</p>
+                            <p>
+                                <i className="bi bi-arrow-right me-2"></i>
+                                3345 Maple Street, Eros Avenue, CA 44017
+                            </p>
                         </div>
 
                     </div>

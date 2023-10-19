@@ -1,5 +1,5 @@
 
-import './App.css'
+import './App.scss'
 import BrandsBar from './sections/BrandsBar'
 //Sections
 import Navbar from './components/Navbar'
@@ -11,8 +11,10 @@ import Pricing from './sections/Pricing'
 import Testimonial from './sections/Testimonial'
 import Work from './sections/Work'
 import Footer from './components/Footer'
+//Components
 import LoginModal from './components/LoginModal'
 import SignUpModal from './components/SignUpModal'
+import BackToTop from './components/BackToTop'
 
 function App() {
   
@@ -31,6 +33,7 @@ function App() {
       <Footer />
       <LoginModal />
       <SignUpModal />
+      <BackToTop />
     </div>
   )
 }

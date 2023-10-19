@@ -16,22 +16,27 @@ function Pricing() {
             name='Free'
             price={0}
             devices={1}
+            flag={false}
             featureOne='Free virus and malware scanning.'
             featureTwo='Real-time protection.'
             featureThree='Quarantine for infected files.'
             featureFour='Basic customer support.' />
+
             <Price
             name='Standar'
             price={19}
             devices={3}
+            flag={true}
             featureOne='Advanced scanning.'
             featureTwo='Personal firewall.'
             featureThree='Secure browsing protection.'
             featureFour='24/7 customer support.' />
+              
             <Price
             name='Enterprise'
             price={39}
             devices='Unlimited'
+            flag={false}
             featureOne='Advanced threat analysis.'
             featureTwo='Centralized management.'
             featureThree='Automatic updates.'

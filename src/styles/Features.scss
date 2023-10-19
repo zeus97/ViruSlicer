@@ -5,7 +5,6 @@
     padding-bottom: 90px;
 
     .features-section-1{margin-bottom: 200px;}
-    
 
     .features-col{
         display: flex;
@@ -14,13 +13,12 @@
 
         .features-points{
             display: flex;
-            
             align-items: flex-start;
             margin-bottom: 20px;
             
             .features-icon{
                 font-size: 25px;
-                padding: 8px;
+                padding: 2px 8px;
                 background-color: #ffff;
                 box-shadow: 0 5px 10px 2px #2d4cff36;
                 margin-right: 10px;
@@ -29,5 +27,6 @@
             }
            
         }
+
     }
 }

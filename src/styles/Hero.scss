@@ -19,47 +19,41 @@
     
            .hero-icon{
                font-size: 2.5rem;
-               padding: 10px;
+               padding: 5px 15px;
                color: #fff;
                background-color: #ffffff36;
                border-radius: 50%;
-               animation-delay: 0.5s;
               
            }
     
            h1{
                color: var(--text-white);
                font-size: clamp(2.5rem,4vw,4rem);
-               animation-delay: 1s;
        
-               span{
-                   
-               }
            }
            p{
                color: var(--text-gray);
-               animation-delay: 1.3s;
            }
            .hero-info{
                display: flex;
                animation-delay: 1.6s;
        
-               span{
+               i{
                    margin-right: 8px;
                    color: #20ffb5;
+                   
                }
            }
            button{
                display: flex;
                justify-content: center;
                align-items: center;
-               animation-delay: 2s;
        
-               &:hover span{
+               &:hover i{
                    transform: translateX(8px);
                }
        
-               span{
+               i{
                    margin-left: 10px;
                    transition: all 0.3s ease;
                }
@@ -67,34 +61,11 @@
            
        }
 
-       img{
-        animation-delay: 0.5s;
-       }
 
     @media screen and (max-width:992px){
         margin-top: 70px;
     }
    }
 
-   
-
-
-    @media screen and (max-width:992){
-        .container{
-            margin-top: 70px;
-        }
-    }
 }
 
-.hidden{
-    opacity: 0;
-}
-
-@keyframes hero-animation{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}

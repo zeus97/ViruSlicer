@@ -1,4 +1,6 @@
 .price-box{
+    position: relative;
+    overflow: hidden;
     width: 350px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(52, 58, 64, 0.08);
@@ -7,6 +9,23 @@
 
     .text-price{
         font-size: 1rem;
+    }
+    .price-check{
+        font-size: 25px;
+    }
+
+    .price-flag{
+        position: absolute;
+        top:40px;
+        right: -40px;
+        padding: 5px 30px;
+        background: linear-gradient(#df2727, #6d1313);
+        transform: rotate(45deg);
+        user-select: none;
+
+        h6{
+            color: #fff;
+        }
     }
 
     @media screen and (max-width:350px){

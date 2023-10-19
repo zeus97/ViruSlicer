@@ -9,9 +9,7 @@ function Analytics() {
         <div className="container">
             <div className='row analytics-item'>
                 <div className="col-4 analytics-item-col">
-                    <span className="material-symbols-outlined analytic-icon">
-                        download
-                    </span>
+                    <i className="bi bi-download analytic-icon"></i>
                 </div>
                 <div className="col-8 analytics-item-col">
                     <h3>
@@ -31,9 +29,7 @@ function Analytics() {
             </div>
             <div className='row analytics-item'>
                 <div className="col-4 analytics-item-col">
-                    <span className="material-symbols-outlined analytic-icon">
-                        group
-                    </span>
+                    <i className="bi bi-people-fill analytic-icon"></i>
                 </div>
                 <div className="col-8 analytics-item-col">
                     <h3>
@@ -52,9 +48,7 @@ function Analytics() {
             </div>
             <div className='row analytics-item'>
                 <div className="col-4 analytics-item-col">
-                    <span className="material-symbols-outlined analytic-icon">
-                        sentiment_satisfied
-                    </span>
+                    <i className="bi bi-emoji-smile-fill analytic-icon"></i>
                 </div>
                 <div className="col-8 analytics-item-col">
                     <h3>
